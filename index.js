@@ -155,4 +155,15 @@ const rules = {
 
 module.exports = {
   rules,
+  configs: {
+    recommended: {
+      rules: {
+        "fp-ts-strict/option-over-undefined": "error",
+        "fp-ts-strict/option-over-null": "error",
+        "fp-ts-strict/array-head": "error",
+        "fp-ts-strict/array-lookup": "error",
+        "fp-ts-strict/record-lookup": "error",
+      },
+    },
+  },
 };

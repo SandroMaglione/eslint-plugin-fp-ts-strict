@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-fp-ts-strict",
-  "description": "Our first ESLint plugin",
+  "description": "ESLint plugin for typescript to enforce fp-ts functions to avoid the most common javascript problems",
   "author": "Sandro Maglione",
   "keywords": [
     "fp-ts",
