@@ -1,0 +1,12 @@
+{
+  "name": "eslint-plugin-fp-ts-strict",
+  "description": "Our first ESLint plugin",
+  "author": "Sandro Maglione",
+  "keywords": [
+    "fp-ts",
+    "functional programming",
+    "functional typescript"
+  ],
+  "version": "0.1.0",
+  "main": "index.js"
+}
