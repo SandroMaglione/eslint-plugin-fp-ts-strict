@@ -25,6 +25,19 @@
 
 [ESLint](https://eslint.org/) plugin used to enforce functional programming types and patterns using [fp-ts](https://github.com/gcanti/fp-ts).
 
+```shell
+npm install --save-dev eslint-plugin-fp-ts-strict
+```
+
+```js
+// .eslintrc.js
+module.exports = {
+  parser: "@typescript-eslint/parser",
+  plugins: ["fp-ts-strict"],
+  extends: ["plugin:fp-ts-strict/recommended"],
+};
+```
+
 ## Motivation
 
 fp-ts is awesome. Using functional programming, you can make your code safer and easier to read. Nonetheless, it's always javascript we are talking about! Therefore, **nothing stops a distracted version of yourself from writing unsafe code!**

@@ -21,6 +21,7 @@ const rules = {
         description: "avoid using undefined in return type, use Option instead",
         category: "Signature Error",
         recommended: true,
+        url: "https://github.com/SandroMaglione/eslint-plugin-fp-ts-strict#option-over-undefined",
       },
     },
     create: function (context) {
@@ -48,6 +49,7 @@ const rules = {
         description: "avoid using null in return type, use Option instead",
         category: "Signature Error",
         recommended: true,
+        url: "https://github.com/SandroMaglione/eslint-plugin-fp-ts-strict#option-over-null",
       },
     },
     create: function (context) {
@@ -76,6 +78,7 @@ const rules = {
           "do not access potentially undefined array index, use `head` instead",
         category: "Signature Error",
         recommended: true,
+        url: "https://github.com/SandroMaglione/eslint-plugin-fp-ts-strict#array-head",
       },
     },
     create: function (context) {
@@ -104,6 +107,7 @@ const rules = {
           "do not access potentially undefined array index, use `lookup` instead",
         category: "Signature Error",
         recommended: true,
+        url: "https://github.com/SandroMaglione/eslint-plugin-fp-ts-strict#array-lookup",
       },
     },
     create: function (context) {
@@ -132,6 +136,7 @@ const rules = {
           "do not access potentially undefined record element, use `lookup` instead",
         category: "Signature Error",
         recommended: true,
+        url: "https://github.com/SandroMaglione/eslint-plugin-fp-ts-strict#record-lookup",
       },
     },
     create: function (context) {
