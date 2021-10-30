@@ -141,10 +141,11 @@ const rules = {
     },
     create: function (context) {
       return {
-        MemberExpression(node) {
+        ExpressionStatement(node) {
           if (
-            typeof node.property.value === "string" ||
-            typeof node.property.name === "string"
+            node.expression.type === "MemberExpression" &&
+            (typeof node.expression.property.value === "string" ||
+              typeof node.expression.property.name === "string")
           ) {
             context.report({
               node: node,

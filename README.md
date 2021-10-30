@@ -191,6 +191,7 @@ Of course! If you have any other rule in mind that you would like to propose, fe
 
 ## 📃 Versioning
 
+- v0.1.1 - 13 October 2021
 - v0.1.0 - 13 October 2021
 
 ## 😀 Support
